@@ -8,6 +8,17 @@
   --portfolio-box-color: #eeeeee;
   --main-btn-color: #2196f3;
   --secon-btn-color: #ffffff;
+  --footer-background-color: #2f303a;
+  --font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/*-------------------------------FOOTER походу теги не могу найти если писать его ниже .боди------------------*/
+.footer-ground {
+  background-color: var(--footer-background-color);
 }
 
 .body {
@@ -20,6 +31,10 @@
 .link {
   text-decoration: none;
 }
+/*-------------------------------HEADER---------------------------------*/
+.header {
+  background-color: #ffffff;
+}
 .header-link {
   font-family: Roboto;
   font-weight: 500;
@@ -28,6 +43,60 @@
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
+.header-link-dark {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
 .web-logo {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+.header-logo {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--footer-nolight-color);
+}
+.header-tel {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  inherits: color var(--third-title-color);
+  color: var(--third-title-color);
+}
+.header-web {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  inherits: color var(--accent-color);
+  color: var(--accent-color);
+  /*-------------------------------Footer---------------------------------*/
+}
+.footer-logo {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.footer-address {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+/*-------------------------------main---------------------------------*/
