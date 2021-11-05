@@ -11,7 +11,7 @@
 }
 
 .body {
-  font-family: "ralewey", "sans-serif";
+  font-family: "ralewey", "sans-serif" "Robato";
 }
 
 .list {
@@ -22,9 +22,12 @@
 }
 .header-link {
   font-family: Roboto;
-  font-weight: 500;
-  font-size: 80px;
+  font-weight: 800;
+  font-size: 150px;
   line-height: 1.4;
   letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+.web-logo {
   color: var(--accent-color);
 }
