@@ -68,7 +68,7 @@
 .header-web {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -120,15 +120,23 @@
 .main-div {
   background-color: var(--footer-background-color);
 }
-.description-header {
+.description-plus {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-title-color);
+}
+.description-team {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.18;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--second-title-color);
 }
 .description-p {
   font-family: Roboto;
@@ -170,6 +178,31 @@
 }
 .footer-ground {
   background-color: var(--footer-background-color);
+}
+.footer-web {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+.footer-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.footer-web:hover {
+  color: var(--accent-color);
+}
+.footer-tel:hover {
+  color: var(--accent-color);
 }
 /*-------------------------------ПОРТФОЛИО мейн---------------------------------*/
 .first-btn {
