@@ -209,6 +209,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
+  background-color: var(--btn-background-color);
 }
 .first-btn:active {
   cursor: pointer;
