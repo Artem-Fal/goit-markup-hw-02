@@ -6,9 +6,11 @@
   --backgroud-color: #f5f4fa;
   --footer-nolight-color: #000000;
   --portfolio-box-color: #eeeeee;
-  --main-btn-color: #2196f3;
+  --btn-background-color: #2196f3;
   --secon-btn-color: #ffffff;
   --footer-background-color: #2f303a;
+  --footer-mail-color: #ffffff99;
+  --main-btn-color: #fff;
 }
 /*-------------------------------FOOTER походу теги не могу найти если писать его ниже .боди------------------*/
 
@@ -27,7 +29,6 @@
   background-color: #ffffff;
 }
 .header-link {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -35,7 +36,6 @@
   color: var(--accent-color);
 }
 .header-link-dark {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -70,7 +70,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   inherits: color var(--third-title-color);
   color: var(--third-title-color);
@@ -94,8 +94,7 @@
   color: var(--accent-color);
 }
 .header-btn {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -103,12 +102,12 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  cursor: pointer;
+  color: var(--main-btn-color);
+  background-color: var(--btn-background-color);
 }
 
 /*-------------------------------main---------------------------------*/
 .hero-title {
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -121,7 +120,6 @@
   background-color: var(--footer-background-color);
 }
 .description-plus {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -131,7 +129,6 @@
   color: var(--second-title-color);
 }
 .description-team {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -139,7 +136,6 @@
   letter-spacing: 0.03em;
 }
 .description-p {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -151,7 +147,6 @@
   background-color: #f5f4fa;
 }
 .second-hero-title {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -184,9 +179,9 @@
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var(--main-title-color);
+  color: var(--footer-mail-color);
 }
 .footer-tel {
   font-family: Roboto;
@@ -195,7 +190,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-title-color);
+  color: var(--footer-mail-color);
 }
 
 .footer-web:hover {
